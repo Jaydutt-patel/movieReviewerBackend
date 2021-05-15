@@ -9,6 +9,7 @@ const movieSchema = new mongoose.Schema({
   year: Number,
   type: String,
   director: String,
+  cast: String,
   tcode: String,
   img: Array
 });

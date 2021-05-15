@@ -30,6 +30,7 @@ export const create = async (data) => {
       year: data.year,
       type: data.type,
       director: data.director,
+      cast: data.cast,
       tcode: data.tcode,
       img: data.img,
     };
